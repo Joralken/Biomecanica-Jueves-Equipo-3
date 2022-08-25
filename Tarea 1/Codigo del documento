@@ -1,0 +1,142 @@
+\documentclass{article}
+\setlength{\parskip}{5pt} % esp. entre parrafos
+\setlength{\parindent}{0pt} % esp. al inicio de un parrafo
+\usepackage{amsmath} % mates
+\usepackage[sort&compress,numbers]{natbib} % referencias
+\usepackage{url} % que las URLs se vean lindos
+\usepackage[top=25mm,left=20mm,right=20mm,bottom=25mm]{geometry} % margenes
+\usepackage{hyperref} % ligas de URLs
+\usepackage{graphicx} % poner figuras
+\usepackage[spanish]{babel} % otros idiomas
+\usepackage[utf8]{inputenc}
+\author{Jorge Luis Fuentes Galván\\ Adán Asís Briones Torres\\ Arely Cabrera Torres\\ Reyna Patricia Fernández Hernández\\ Romano Jahir Villareal Martínez} % author
+\title{Tarea 1} % titulo
+\date{\today}
+
+\begin{document} % inicia contenido
+\maketitle % cabecera
+\begin{abstract} % resumen
+Cuanto mejor comprendamos cómo se mueve el cuerpo y las funciones que desempeñan las articulaciones, los huesos y los ligamentos a la hora de realizar determinadas acciones, más sencillo será mejorar la ejecución de los movimientos necesarios para la práctica de un determinado ejercicio o deporte.\\
+Las personas que adoptan una biomecánica adecuada son capaces de explotar su potencial al máximo nivel ayudando además a minimizar el riesgo de lesiones, tanto en el caso de los deportistas profesionales como en cualquier persona que incorpore el ejercicio en su vida cotidiana con el fin de mejorar su condición física y su bienestar.\\
+Se denomina \textbf{biomecánica} al análisis de la mecánica del movimiento del cuerpo humano. Se trata de la ciencia que explica cómo y por qué el cuerpo humano se mueve de la forma que lo hace. Esto incluye la interacción existente entre la persona que ejecuta el movimiento y el equipamiento o el entorno.\\
+Dentro de la biomecánica, encontramos los conceptos de \textbf{cinética} (estudio de las fuerzas que actúan sobre el cuerpo) y \textbf{cinemática} (estudio de los movimientos del cuerpo). Cinco importantes componentes de la biomecánica son el movimiento, la fuerza, el momento, las palancas y el equilibrio:\\
+\textbf{Movimiento} hace referencia al desplazamiento del cuerpo o de un objeto a través del espacio. La \textbf{velocidad} y la
+\textbf{aceleración} son componentes importantes del movimiento.\\
+\textbf{Fuerza} hace referencia al empuje o la tracción que provocan que una persona o un objeto aceleren, reduzcan la velocidad, se detengan o cambien de dirección.\\
+\textbf{Momento} hace referencia al resultado de una masa y de su velocidad en su desplazamiento.\\
+\textbf{Palancas}: nuestros brazos y piernas funcionan a modo de palancas; una palanca está formada por tres componentes: el brazo de resistencia, el punto de apoyo y el eje de rotación.\\
+\textbf{Equilibrio} hace referencia a la estabilidad. Un principio importante del equilibrio es la alineación del centro de gravedad del cuerpo sobre la base de apoyo. Tener un buen equilibrio es importante para la práctica de muchos deportes y ejercicios.\\
+\end{abstract}
+\tableofcontents
+\section{Introducción}\label{intro} % seccion y etiqueta
+
+En este reporte de investigación abordaremos sobre la biomecánica. Como sabemos la biomecánica es la ciencia que estudia las fuerzas y las aceleraciones que actúan sobre los organismos vivos. Esto es el significado textualmente. Sin embargo, sabemos que hay muchas definiciones y la que buscamos nosotros es la que esta mas enfocada en la ingeniería, por lo tanto, la biomecánica es una ciencia de la rama de la bioingeniería y de la ingeniería biomédica, encargada del estudio, análisis y descripción del movimiento del cuerpo, además de examinar las fuerzas en función de la estructura biológica y los efectos producidos por esas fuerzas. \\
+Una vez definido el concepto sobre la biomecánica nos encargamos de encontrar su punto de enfoque o, mejor dicho, su objetivo, entonces: ¿Cuál es el objetivo de la biomecánica? El objetivo de la biomecánica es solucionar los problemas anatómicos y de movimiento que surgen de diversas condiciones a las que está sometido el cuerpo en las diversas actividades de la vida. \\
+Su objetivo es de gran importancia ya que hace un aporte en pro de la resolución de las diversas condiciones de salud y calidad de vida, además del aporte en las soluciones científicas y tecnológicas de nuestro entorno.  La investigación aplicada en biomecánica busca beneficiar al ser humano y evitar desde el ámbito ocupacional, del deporte y de las actividades de la vida diaria lesiones a nivel musculoesquelético mediante el aprendizaje de la movilidad natural del cuerpo y sus limitaciones físicas durante su ejecución.
+Una vez teniendo claro esto podemos abordar mas a fondo las materias, físicas y demás. Que componen la biomecánica que presentaremos a continuación.
+
+%\cite{ff2} CITAR FUENTE
+
+%\begin{figure} % figura
+    %\centering
+    %\includegraphics[width=150mm]{output3.jpg} % archivo
+    %\caption{resultados del programa}
+    %\label{grafica}
+%\end{figure}
+
+\section{Desarrollo}
+\textbf{Conceptos de física aplicados al aparato locomotor}\\
+\textit{La mecánica: cinemática, estática y dinámica.}\\ 
+\textbf{Definiciones:}\\
+Para empezar, hablar sobre la biomecánica debemos conocer primeramente que es la \textbf{mecánica}, esta es la parte de la física que estudia el movimiento.
+Un primer nivel de estudio consiste en dar la descripción matemática del movimiento. Dicho objetivo es parte de la mecánica llamada \textbf{cinemática} donde su descripción es asociar a cada movimiento una función o ecuación que indique en cada instante cual es la posición del móvil medida desde un determinado sistema de referencia.
+Dicho esto, la siguiente parte de la mecánica es la \textbf{dinámica} que estudia cuales son las causas de movimiento. Los cuerpos no están aislados, es decir, interaccionan entre ellos. Las fuerzas son la medida de estas interacciones, donde la dinámica, intenta establecer las relaciones existentes entre las fuerzas que actúan sobre un determinado cuerpo y el movimiento resultante. 
+Por último, tenemos la \textbf{estática} siendo la que estudia las condiciones que deben producirse para que un cuerpo o sistema este en equilibrio.\\
+\textbf{Concepto de fuerza.}\par
+\textit{Clasificación de las fuerzas}\par
+En la biomecánica, específicamente la mecánica, saber sobre la \textbf{fuerza} es primordial para empezar hablar a profundidad de otros temas mas avanzados, es por eso, que la definición de fuerza es la medida de la interacción de dos cuerpos o partículas. Las fuerzas que provocan en los cuerpos sobre los que actúan un cambio en su velocidad o una deformación. Las clasificaciones de las fuerzas son las siguientes:
+Por contacto o fuerzas a distancia, donde se a comprobado que todas las fuerzas son a distancia, ya que el contacto no deja de ser una ilusión macroscópica. Las otras fuerzas son las gravitatorias como la fuerza que ejerce la Tierra y la Luna. Las electromagnéticas que producen las cargas eléctricas y por ultimo las fuerzas nucleares que están presente entre las partículas en el núcleo atómico.\cite{ff2} \\
+En \textbf{biomecánica}, se considera que cualquier movimiento parte de una posición anatómica. Una posición anatómica es aquella en la que una persona está situada de pie, conhttps://www.overleaf.com/project/6305657ca31d2b328909d77c la vista hacia delante, los brazos a los laterales del cuerpo con las palmas hacia el frente, con los pies ligeramente separados en la zona de los talones y los dedos de los pies señalando hacia delante. Existen tres planos anatómicos o cardinales en la posición anatómica, según se describe a continuación.\\
+El plano sagital o mediano divide el cuerpo en dos lados (derecho e izquierdo), con algunas excepciones: los movimientos de flexión (reducción del ángulo de una articulación o doblar la articulación) y de extensión (aumentar el ángulo de la articulación o extender la articulación) se producen en el plano sagital.\par
+La segunda división del cuerpo se realiza a través del plano frontal o coronal, que distingue la parte delantera y la parte trasera del cuerpo. Una vez más, hay algunas excepciones: los movimientos de abducción (separar una extremidad de la línea central del cuerpo) y de aducción (acercar una extremidad a la línea central del cuerpo) se producen en el plano frontal.\\
+Por último, el plano transversal u horizontal divide el cuerpo en una parte superior y una parte inferior. Los movimientos de rotación se producen en el plano transversal. Los patrones diagonales de movimiento se producen cuando los componentes de estos tres planos cardinales de movimiento se combinan al mismo tiempo.\\
+Los ejes del cuerpo son líneas rectas que atraviesan el cuerpo a modo de flechas, perpendiculares recíprocamente. Mientras que los planos cardinales se utilizan para describir las zonas espaciales en las que se mueve el cuerpo, los ejes describen los principales puntos pivotantes o de rotación del movimiento del cuerpo. Los tres ejes principales son los siguientes:\\
+\begin{description}
+\item[Transversal], que va de la izquierda a la derecha en la zona de la cintura.
+\item[Longitudinal], que atraviesa directamente el centro del cuerpo desde la cabeza hasta los pies.
+\item[Medial], que une diagonalmente las caderas y los hombros.
+\end{description}
+Los siguientes términos se utilizan para describir movimientos específicos del cuerpo que se producen en los planos cardinales y a lo largo de los ejes. Algunos de ellos se han incluido en el lenguaje cotidiano, por lo que conviene familiarizarse con ellos, ya que se utilizan frecuentemente en las instrucciones de los ejercicios:\\
+\begin{description}
+\item[Dorsiflexión]: reducción del ángulo de la articulación del tobillo
+\item[Plantarflexión]: aumento del ángulo de la articulación del tobillo
+\item[Elevación:] mover una parte del cuerpo en dirección ascendente (hacia la cabeza)
+\item[Depresión]: mover una parte del cuerpo en dirección descendente (alejándola de la cabeza)
+\item[Eversión]: girar el tobillo de forma que la planta del pie apunte al lado contrario de donde está ubicado el otro pie.
+\item[Inversión]: girar el tobillo de forma que la planta del pie apunte hacia el otro pie.
+\item[Rotación lateral]: girar una extremidad alejándola de la línea central/medial del cuerpo.
+\item[Rotación medial]: girar una extremidad hacia la línea central/medial del cuerpo.
+\item[Pronación]: girar el antebrazo de forma que la palma de la mano mire hacia abajo si el antebrazo está flexionado.
+\item[Supinación]: girar el antebrazo de forma que la palma de la mano mire hacia arriba si el antebrazo está flexionado.
+\item[Retracción]: movimiento posterior (hacia la parte trasera del cuerpo) del brazo a la altura del hombro.
+\item[Protracción]: movimiento anterior (hacia la parte delantera del cuerpo) del brazo a la altura del hombro.
+\item[Flexión lateral]: doblar la columna vertebral hacia un lateral, alejándola de la línea central/medial del cuerpo.
+Otro concepto importante que se debe interiorizar para comprender cómo se mueve el cuerpo es el de \item[articulación]: cuando hace referencia al movimiento de dos o más huesos en una articulación. 
+\end{description}
+Existen dos tipos de articulaciones en el organismo, pero las que proporcionan una mayor amplitud movimiento y que por tanto son fundamentales a la hora de entender cómo se mueve el cuerpo son las articulaciones sinoviales.\\
+Las \textbf{articulaciones sinoviales} son las partes del cuerpo en las que el hueso se separa a través de un líquido lubricante y de cartílago. \cite{ff3}Las articulaciones se caracterizan por su amplitud de movimiento relativamente grande. Las nueve características básicas de las articulaciones sinoviales son las siguientes:
+\begin{enumerate}
+\item Cartílago articular
+\item Ligamentos
+\item Tendones
+\item Músculos
+\item Membrana sinovial
+\item Líquido sinovial
+\item Huesos
+\item Cápsula fibrosa
+\item Cavidad articular
+\end{enumerate}
+\begin{figure} [htp]% figura
+    \centering
+    \includegraphics[width=150mm]{Sinovial.jpg} % archivo
+    \caption{Articulacion sinovial.}
+    \label{grafica}
+\end{figure}
+\cite{ff4}La biomecanica engloba todo lo que se refiere a la anatomia, fisiologia aerticular, fisiologia muscular, mecanica y cinesiologia que tiene como fin comprender los gestos y posturas del ser humano asi tambien para entender mejor las patologias y las disfunciones mas frecuentes para asi entonces encontrar de manera mas efectiva el tipo de intervencion terapeutica mas adecuada. 
+Los spectos que se investigan en la biomecanica son la mecanica de huesos y de los musculos
+al igual que la mecanica de los liquidos y de los gases. 
+\par Eso es lo que la hace diferente de las otras mecanicas.
+Lo que nosotros vemos sera el estudio del aparato locomotor y sus aplicaciones vendrian siendo los de la cirugia, instrumentacion, la practica deportiva, la ergonomia y la cinesioterapia y esta es en la que tendriamos que poner mas atencion.
+\par Para poder crear modelos mecanicos con condiciones especificas de una parte o region del cuerpo se usa lo que es el analisis matematico para asi crear un esquema postural,conductual o gestual de lo que podemos ver como los aspectos funcionales aunque si lo pensamos bien el analisis matematico da lo que es una perspectiva alejada a la realidad.
+Por el contrario uno de los elementos indispensables en este tipo de comprensiones mecanica humana por mas dificl que sea combinarla la observacion clinica es de vital importancia ya que podemos tomar como consideracion otras variables que el modelo matematico no tomo en cuenta o mas que nada lo que el modelo matematico no puede ver ya que cada cuerpo es diferente a pesar de que la funcionalidad es diferente la anatomia de cada quien al ser obervada clinicamente nos puede dar valores mas detallados sobre las capacidades del cuerpo humano
+\begin{figure} [htp]% figura
+    \centering
+    \includegraphics[width=115mm]{biomecanica.jpg} % archivo
+    \caption{Representaciones.}
+    \label{grafica}
+\end{figure}
+\par \cite{ff4}Magnitudes Mecanicas y representaciones 
+\par Que es? Un solido es un cuerpo caracterizado por una forma y unas dimensiones de dos tipos.
+\par Solido Indeformable- Es una abstraccion teorica denominado solido de euclides. En este caso la distancia entre dos puntos cualesquiera permanence constante, sean cuales sean las fuerzas *estres mecanico* a las que se somete 
+\par Solido Deformable- Es el solido habitual, porque, en realidad todo cuerpo es deformable, aunque sea minimamente, denominado solido de hooke, se dice que es vixo o elastoplastico.\\
+
+\textbf{BIOMECANICA Y SUS APLICACIONES.}\\
+Bajo el termino de Biomecánica se conoce el conjunto de conocimientos interdisciplinares generados a partir de utilizar con el apoyo de otras ciencias biomédicas, los conocimientos de la Mecánica y distintas tecnologías en el estudio del comportamiento de los sistemas biológicos, en particular del cuerpo humano y en resolver los  problemas que  provocan  las  distintas  condiciones  a  las  que  puede verse  sometido.\\
+La Biomecánica nos permite analizar y resolver o paliar la problemática que debido a discapacidades causadas por la edad o por deficiencias físicas, psíquicas o sensoriales se reflejan en limitaciones mecánicas para realizar una vida independiente e integrarse socialmente.
+Con el objeto de mejorar la competitividad,  modernización, innovación y diversificación de los sectores industria-les a los que dirige su trabajo, pone a disposición de em-presas y entidades públicas y privadas una completa oferta tecnológica y científica que reúne siete áreas de actuación diferentes:  Implantes e Instrumental Quirúrgico, Ayudas  Técnicas  para  Personas  con  Discapacidad,  Calzado, Material  y  Equipamiento  deportivo,  Mueble,  Ergonomía del Puesto de Trabajo e Instrumentación Biomecánica.\cite{ff5}
+\begin{figure} [htp]% figura
+    \centering
+    \includegraphics[width=115mm]{Protesis.jpg} % archivo
+    \caption{Aplicacion de biomecanica (exoesqueleto).}
+    \label{grafica}
+\end{figure}
+\section{Conclusiones}
+Para terminar esta investigación nos realizamos la siguiente pregunta ya una vez visto toda esta extensa información presentada: \textbf{¿Por qué es importante la biomecánica?} Nuestro equipo concluye que los estudios del cuerpo permiten al hombre conocer y analizar las diferentes estructuras que conforman el cuerpo humano a favor del descubrimiento de nuevas técnicas y abordajes respecto al ámbito de salud, y es por ello que la biomecánica tiene mucha relevancia porque forma parte de ello.
+En la actualidad la biomecánica está presente en los ámbitos ocupacionales, del deporte y médico.\\ A nivel ocupacional se encarga de estudiar la interacción del cuerpo humano con nuestro entorno laboral, trabajo frente al computador, conducción de vehículos, manejo de cargas, etc., y de esta forma adaptarlas a las necesidades y capacidades individuales; en este espacio de la biomecánica se relaciona con la ergonomía.\\
+En el ámbito de la biomecánica deportiva analiza el entrenamiento deportivo para lograr mejorar el rendimiento deportivo, de esta forma se desarrollan técnicas de entrenamiento complementarios. Por último, la biomecánica médica es la encargada de evaluar las patologías que afectan al cuerpo humano, en pro de generar soluciones para evaluarlas, repararlas o evitarlas.
+
+
+
+\bibliography{bib}
+\bibliographystyle{plainnat}
+\end{document}
