@@ -1,1 +1,193 @@
+\documentclass{article}
+\setlength{\parskip}{5pt} % esp. entre parrafos
+\setlength{\parindent}{0pt} % esp. al inicio de un parrafo
+\usepackage{amsmath} % mates
+\usepackage[sort&compress,numbers]{natbib} % referencias
+\usepackage{url} % que las URLs se vean lindos
+\usepackage[top=25mm,left=20mm,right=20mm,bottom=25mm]{geometry} % margenes
+\usepackage{hyperref} % ligas de URLs
+\usepackage{graphicx} % poner figuras
+\usepackage[spanish]{babel} % otros idiomas
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{subfig}
+\author{Jorge  Fuentes, Adán  Briones, Arely Cabrera, Reyna  Fernández, Romano Villareal} % author
+\title{Tarea 2} % titulo
+\date{\today}
 
+\begin{document} % inicia contenido
+\maketitle % cabecera
+\begin{abstract} % resumen
+Las manos forman parte de las extremidades del cuerpo humano, abarca desde la muñeca hasta la yema de los dedos en los seres humanos, son prensiles y tienen cinco dedos cada una. Son el principal órgano para la manipulación física; la punta de los dedos contiene algunas de las zonas con más terminaciones nerviosas del cuerpo humano; son la principal fuente de información táctil sobre el entorno, por eso el sentido del tacto se asocia inmediatamente con las manos.\\
+A lo largo de los años, se han encontrado más usos para la silicona en el campo de la protésica de extremidades. Ahora se usa como material de relleno para encajes, como sistema de suspensión del encaje de succión de silicona (tipo Iceross 3S) y es el material preferido para las reconstrucciones de mano cosméticas de gran calidad, por nombrar algunos usos.\\
+Actualmente los sistemas protésicos mioeléctricos son los que proporcionan el más alto grado de rehabilitación. Son en realidad prótesis eléctricas controladas por medio de una interface mioeléctrica. Sintetizan el mejor aspecto estético con una gran fuerza y velocidad de prensión, así como varias posibilidades de combinación y ampliación. Se basan en el empleo de la señal eléctrica (EMG), que se produce al contraerse un músculo, como señal de control. Elimina el arnés de suspensión, usando una de las siguientes técnicas para mantener la prótesis en el lugar correspondiente: bloqueo de tejidos blandos-esqueleto o succión. Las desventajas fundamentales son la necesidad de una fuente externa de energía eléctrica para la potencia, su peso y costos.
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+\section{Introducción}\label{intro} % seccion y etiqueta
+En este trabajo de investigación nuestro objetivo es conocer la filología de la mano, ya que, sin esto no podremos construir nuestro proyecto final: una prótesis para un dedo. Es por eso que es importante comprender todo lo que construye el sistema de la mano para poder entender como funciona un dedo. A lo largo del trabajo veremos como se mencionó anteriormente las partes de la mano, sus tendones, los ligamentos, etc.\\
+También veremos algunos tipos de prótesis, a si como también la que consideramos la mejor hoy en dia en el área de la biomecánica, ya sea por su diseño estético, su funcionamiento práctico, entre otros factores que se utilizan en el criterio de la evaluación de dichas prótesis.\\
+Por último, daremos un vistazo a los materiales utilizados en dichas prótesis, sus ventajas, los inconvenientes, entre otros factores por los cuales la industria los escoge a la hora de fabricar algún modelo de prótesis orientado a la mano.
+%\cite{ff2} CITAR FUENTE
+
+%\begin{figure} % figura
+    %\centering
+    %\includegraphics[width=150mm]{output3.jpg} % archivo
+    %\caption{resultados del programa}
+    %\label{grafica}
+%\end{figure}
+\section{Desarrollo}
+\subsection{Fisología de la mano}
+Las manos forman parte de las extremidades del cuerpo humano, abarca desde la muñeca hasta la yema de los dedos en los seres humanos, son prensiles y tienen cinco dedos cada una. Son el principal órgano para la manipulación física; la punta de los dedos contiene algunas de las zonas con más terminaciones nerviosas del cuerpo humano; son la principal fuente de información táctil sobre el entorno, por eso el sentido del tacto se asocia inmediatamente con las manos.
+En la mano hay 3 tipos de huesos principales, que son los siguientes:
+\begin{itemize}
+    \item Falanges. Son los 14 huesos que se encuentran en los dedos de cada mano y también en los dedos de cada pie. Cada dedo tiene 3 falanges (distal, media y proximal). El pulgar solo tiene 2 falanges.
+    \item Metacarpianos. Los 5 huesos que componen la parte media de la mano.
+    \item 	Huesos del carpo. Los 8 huesos que forman la muñeca. Las 2 filas de huesos del carpo están conectadas a los 2 huesos del antebrazo: el radio y el cúbito.
+\end{itemize}
+En el interior de la mano, se puede encontrar una gran cantidad de músculos, ligamentos, tendones y vainas. Los músculos son estructuras que pueden contraerse, lo que permite el movimiento de los huesos de la mano. Los ligamentos son tejidos fibrosos que ayudan a mantener unidas las articulaciones de la mano. Las vainas son estructuras tubulares que rodean parte de los dedos. Los tendones conectan los músculos del brazo o de la mano con el hueso, lo cual permite el movimiento, y por lo general pasan por el interior de las vainas.\\
+Además, dentro de la mano hay arterias, venas y nervios que suministran el flujo sanguíneo y la sensibilidad en los dedos y en toda la mano\cite{rf4}.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=80mm]{Partes de la mano.jpg} % archivo
+    \caption{Partes de la mano}
+    \label{grafica}
+\end{figure}
+\newpage
+\subsubsection{Anatomía Ligamentaria}
+Las uniones entre los diversos huesos de la mano, están reforzadas por un grupo de sistema ligamentario que le permite su función mientras ayuda a mantener sus relaciones anatómicas.
+Los ligamentos de la muñeca según la clasificación de Taleisnik 3 se dividen en intrínsecos y extrínsecos. Estos últimos se insertan en los huesos del carpo o proximales o distales a ellos, mientras que los intrínsecos se insertan por completo en los límites del carpo.\\
+Los ligamentos extrínsecos palmares se clasifican como radiocarpianos y cubitocarpianos. Desde la apófisis estiloides del radio, de ulnar a radial, se describen los ligamentos el radioescafoideo-hueso grande, el radioulnar largo, el radioescafosemilunar y el radioulnar corto.\\
+El ligamento radioulnar largo se ha llamado ligamento radioulnopiramidal, no obstante nuevos datos sugieren que su breve trayecto sobre la cara palmar del semilunar hacia el piramidal no es suficiente para justificar ese nombre. De igual forma, aunque históricamente el ligamento radioescafosemilunar se ha considerado como el principal restrictor de la flexión del escafoides o subluxación en rotación, estudios recientes1 muestran que tal ligamento no es tejido ligamentario conectivo verdadero, sino un vínculo neurovascular, el cual tiene mínima contribución mecánica.\\
+El ligamento radioulnar corto nace en el borde palmar de la fosa semilunar y se dirige distalmente para insertarse en la cara proximal de la apófisis unciforme del semilunar. En dirección radial, este ligamento se separa del ligamento radioulnar largo, por la penetración de radioescafosemilunar, a través de la cápsula radiocarpiana palmar. En dirección cubital, se combinan con las fibras que se originan en el reborde palmar de complejo fibrocartilaginoso triangular y se inserta en el semilunar. Este ligamento parece ser el principal estabilizador del semilunar. Los ligamentos cubitoulnar y cubitopiramidal se originan en el complejo fibrocartilaginoso triangular y se insertan en la cara palmar de semilunar y piramidal respectivamente.
+\begin{figure}
+ \centering
+  {
+    \includegraphics[width=0.4\textwidth]{Ligamentos de la mano.png}}
+  {
+    \includegraphics[width=0.4\textwidth]{Ligamentos de la mano 2.jpg}}
+ \caption{Ligamentos de la mano}
+\end{figure}
+\newpage
+\subsection{Diseños de prótesis de la mano}
+\subsubsection{Funciones de la mano}
+La mano humana realiza principalmente dos funciones; la prensión y el tacto, las cuales permiten al hombre convertir sus ideas en formas (movimientos, manipulación, etc.), adicionalmente la mano añade expresión a las palabras, como en los casos del escultor o de los sordomudos. El sentido del tacto desarrolla totalmente las capacidades de la mano, sin este sería imposible medir la fuerza prensora. Por último, es importante mencionar que el dedo pulgar representa el miembro más importante de la mano, sin este la capacidad funcional de la mano se reduce en cerca de un 40.
+\subsubsection{Inicios de las prótesis}
+Sustituir por pérdida alguno de los miembros humanos por dispositivos es un acontecimiento que ha venido sucediendo desde hace más de dos mil años. Durante el siglo XX, el objetivo de que los amputados regresaran a la vida laboral, orientó en gran medida las innovaciones presentadas a lo largo de los años. Inicialmente el objetivo propuesto es alcanzado por el médico francés Gripoulleau, quien fabricó distintos accesorios que podían ser utilizados como unidad terminal. En 1912, Dorrance, en los Estados Unidos, desarrolló una unidad terminal llamada Hook que puede abrirse y cerrarse activamente mediante movimientos de la cintura escapular combinado con un tirante de goma.
+La prótesis con mando mioeléctrico tiene su origen en Rusia durante la década del 60. Esta opción protésica basa su control en los pequeños potenciales eléctricos extraídos de las masas musculares del muñón, siendo conducidos y amplificados para energizar y obtener el movimiento de la misma. A finales del siglo XX las funciones de las prótesis con mando mioeléctrico, estaban limitadas al cierre y apertura de una pinza. Las diferencias entre los distintos modelos encontrados en el mercado consisten en el tipo de control que emplean, pero la mayoría realiza básicamente las mismas funciones.\\
+\newpage
+\subsubsection{El mejor tipo de prótesis}
+Actualmente los sistemas protésicos mioeléctricos son los que proporcionan el más alto grado de rehabilitación. Son en realidad prótesis eléctricas controladas por medio de una interface mioeléctrica. Sintetizan el mejor aspecto estético con una gran fuerza y velocidad de prensión, así como varias posibilidades de combinación y ampliación. Se basan en el empleo de la señal eléctrica (EMG), que se produce al contraerse un músculo, como señal de control. Elimina el arnés de suspensión, usando una de las siguientes técnicas para mantener la prótesis en el lugar correspondiente: bloqueo de tejidos blandos-esqueleto o succión. Las desventajas fundamentales son la necesidad de una fuente externa de energía eléctrica para la potencia, su peso y costos.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=120mm]{Diseño de mecanismo.jpg} % archivo
+    \caption{Mecanismo de una prótesis}
+    \label{grafica}
+\end{figure}
+\begin{description}
+    \item[(a) Mano de Cantebury], que utiliza eslabones mecánicos con movimiento direct
+    \item[(b) Manipulador construido], en la Universidad de Reading
+\end{description}
+\newpage
+\subsubsection{MODELOS EMPLEADOS EN EL DISEÑO DE PRÓTESIS DE MANO}
+La mano humana posee una compleja organización anatómica y funcional, lo cual facilita un gran número de posibilidades en las posiciones, movimientos y manipulación de objetos. Desde el punto de vista biomecánico, la mano humana puede ser considerada como un sistema de eslabones de segmentos óseos interconectados mediante pares cinemáticos articulados formados por ligamentos; mientras que un complejo sistema de actuadores formados por músculos y tendones, la mayoría de los cuales posee conexión poliarticular, garantizan el más alto nivel de multifuncionalidad y destreza alcanzable en el sistema musculoesquelético. Para implementar y emular satisfactoriamente esta abundante riqueza funcional de la mano humana es necesario contar con modelos no solamente cinemáticos y cinéticos, sino también reológicos que describan con suficiente agudeza el comportamiento de los materiales bio-ingenieriles que ejecutan fundamentalmente la función de actuadores en las prótesis de mano\cite{rf3}.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=150mm]{Protesis de mano.jpg} % archivo
+    \caption{Modelo Aesthetic de una prótesis de mano}
+    \label{grafica}
+\end{figure}
+\newpage
+\subsection{Dispositivos/microcontroladores que se utilizan}
+Existen diferentes tipos de prótesis, y por lo tanto utilizan distintos dispositivos y controladores. De acuerdo con la investigación de Tenesaca y Tituana podemos observar algunos sistemas de control para prótesis de mano existentes:
+\begin{table}[H]
+    \begin{center}
+        \begin{tabular}{|p{2.5cm}|p{7.2cm}|p{7.2cm}|}
+           \hline
+           \centering\textbf{Sistemas de control} & \centering\textbf{Funciones} & \textbf{Dispositivos}\\ \hline
+           Prótesis biónica CyberHand & 
+           Dedos articulados y movimientos independientes de muñeca y pulgar. El paciente siente la presión y temperatura. &
+           Seis \textbf{micromotores} conectados a terminaciones nerviosas por \textbf{electrodos} \\ \hline
+           Mano biónica Michelangelo & 
+           Con seis grados de libertad, flexible y resistente al agua. Con pulgar, índice y medio como elementos activos; y los demás pasivos. & 
+           Control mioeléctrico accionado por \textbf{servomotores}, accionados por \textbf{EMG´s intramusculares}. \\ \hline
+           SensorHand Speed y VariPlus Speed & 
+           Se ajusta a la fuerza y velocidad de agarre. Dispone de 6 programas de control &
+           \textbf{Motores eléctricos} controlados por \textbf{servomotores, pulsantes o interruptores}. \\ \hline
+           Flexy Hand 2 &
+           Con cinco grados de libertad. Agarre cilíndrico (jarro, mouse, sujetar con dedos índice y medio) & 
+           \textbf{Bisagras flexibles} para el movimiento de dedos. Control de movimientos mediante el \textbf{brazalete Myo} con programación en un \textbf{microcontrolador} y comanda de \textbf{servomotores}.  \\ \hline
+           MACOSEMU & 
+           Con un grado de libertad, basado en el diseño Flexy Hand. Adquiere y visualiza señales EMG, amplifica y filtra. &
+           \textbf{Electrodos y motor} \\ \hline
+           Prótesis mioeléctrica para desarticulación de muñeca &
+           Movimientos de agarre cilíndrico, presión en pinza y apertura de dedos.  &
+           \textbf{Actuadores lineales Firgelli PQ12-R} ensamblados en la palma de la mano. Implementación de \textbf{interfaz EMG}, utilizando la \textbf{banda mioeléctrica MYO} con comunicación \textbf{bluetooth}. Programado en el \textbf{microcontrolador Pololu A Star 32u4 micro}. \\ \hline
+           MAKI UPS V1.0 &
+           Con cinco grados de libertad. Agarre cilíndrico, de pinza, lateral y reset. Responde a señales de código Morse. &
+           \textbf{Actuador lineal} en cada uno de los dedos. Con un \textbf{socket} con forma del antebrazo del usuario para sujetarlo; y con un \textbf{sensor de proximidad} dentro de él para señales. \\ \hline
+           MAKI 2.0 &
+           Con dimensiones y formas cercanas a la mano humana. Agarre cilíndrico de diámetro chico y grande, demo, apertura-cierre dedos, giro horario y antihorario, posición de tecleo, agarre de punta, agarre lateral, reset, posición dos dedos. &
+           \textbf{Sensor óptico en el socket} que responde a las señales de código Morse. \\ \hline
+           MAKI 3.0 & 
+           Con dedos meñique, anular, medio e índice con falange medio y distal en una pieza. Con cinco grados de libertad, uno por cada dedo. Extensión y flexión de dedos, agarre lateral, agarre cilíndrico de diámetro grande y pequeño, agarre de precisión, agarra de tipo gancho y posición de tecleo. &
+           \textbf{Acople} conectado de las falanges proximal al dorso. Se conecta un \textbf{eslabón} desde la tercera y segunda falange a un \textbf{actuador lineal (PQ12)} para flexión y extensión \\ \hline          
+        \end{tabular}
+    \end{center}
+    \caption{Sistemas de control para prótesis de mano}
+    \label{tab:dispositivos}
+\end{table}
+
+En la tabla \ref{tab:dispositivos} existen dispositivos electrónicos que suelen usarse en distintos proyectos mecatrónicos, sin embargo existen unos muy específicos como lo es el EMG y el brazalete MYO. \\
+\newpage
+El EMG, o electromiografía, es una técnica médica de adquisición de datos, registro de señales y análisis de señales eléctricas producidas por los músculos durante una contracción. Estas señales dependen de la posición, tipo y material de los electrodos utilizados.\\
+
+Existen tres tipos de control en las EMG:
+\begin{itemize}
+    \item Control encendido-apagado.
+    \item Control proporcional y máquinas de estados: variación de la contracción angular de la muñeca.
+    \item Control y procesamiento de señales: mediante microcontroladores.
+\end{itemize} 
+
+Por otro lado, el brazalete MYO es un dispositivo desarrollado para la medición de señales EMG del antebrazo y de ahí poder controlar otros dispositivos. Está constituido por 8 electrodos EMG, una unidad de medición inercial de 9 ejes, un procesador Cortex M4 de bajo consumo, un Módulo Bluetooth Low Energy Tranceiver/processor\cite{rf1}. \\
+
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=150mm]{Dispositivo.jpeg} % archivo
+    \caption{Componentes externos del brazalete MYO}
+    \label{grafica}
+\end{figure}
+
+La desventaja de este dispositivo es que se pueden perder datos en el proceso de filtrado si no es conectado correctamente, además de ser costoso y requiere tiempo adicional para pruebas.\\
+\newpage
+\subsection{Materiales de fabricación} 
+\subsubsection{Material termoplástico}
+Las láminas termoplásticas se usan mucho en el campo de la protésica para fabricar conexiones protésicas y componentes estructurales. Estos materiales están disponibles en láminas de varios grosores y colores. Los tipos más básicos son el polipropileno y polietileno. El polipropileno (PP) es un plástico muy rígido para el que se han encontrado varios usos en protésica. La estructura de soporte de la conexión protésica suele fabricarse con polipropileno. El polietileno (PE) de baja densidad es un termoplástico blando y flexible que puede usarse para las conexiones protésicas. Una de las ventajas de estos y otros tipos de termoplástico es que se pueden remodelar. Para remodelar el material se utiliza una pistola de aire caliente que calienta la zona deseada hasta conseguir la temperatura necesaria para poder darle forma. Ésta puede ser una gran ventaja cuando existe alguna zona de presión en el encaje.\\
+Además del PP y del PE, hay una gran cantidad de “combinaciones” de plásticos disponibles. Las características de estos materiales varían en cuanto a rigidez y flexibilidad. Un buen ejemplo es el copolímero, una mezcla de polipropileno y etileno que crea un material bastante rígido pero más flexible y resistente a las grietas que el polipropileno puro\cite{rf2}.
+
+\subsubsection{La silicona y otros materiales similares}
+A lo largo de los años, se han encontrado más usos para la silicona en el campo de la protésica de extremidades. Ahora se usa como material de relleno para encajes, como sistema de suspensión del encaje de succión de silicona (tipo Iceross 3S) y es el material preferido para las reconstrucciones de mano cosméticas de gran calidad, por nombrar algunos usos. Los hay de muchas formas y se pueden fabricar en un durómetro con soporte rígido o muy blando. Cuando se fabrica en un durómetro muy blando, la silicona no sólo proporciona un excelente relleno sino que también protege la piel de fricciones (cortes).
+
+\subsubsection{Metales}
+En protésica, los componentes metálicos suelen ser aquéllos fabricados por uno de los muchos distribuidores de componentes protésicos. Pueden ser rodillas, pilones, tobillos y rotadores, por nombrar algunos. Se pueden encontrar ejemplos de aluminio, acero inoxidable y titanio de estos componentes.\\
+El aluminio, en general, se considera como una alternativa más liviana que el acero. No es tan duro pero, dependiendo de la aplicación, es lo suficientemente resistente como para cumplir los requisitos de diseño y superar las pruebas necesarias.
+El acero es sin duda resistente pero, también, relativamente pesado. Puesto que el acero es duro, se puede usar para fabricar pequeños componentes que pueden valerse más de la resistencia del material que de la geometría del diseño.\\
+
+El titanio es una alternativa resistente y liviana. La desventaja es su elevado precio. Muchos de los componentes endoesqueléticos inicialmente diseñados de acero están ahora disponibles en titanio. Se deben tener en cuenta todas las ventajas y desventajas al escoger los componentes protésicos. Si no se eligen adecuadamente, los materiales más costosos, resistentes y livianos pueden no proporcionar ninguna ventaja discernible en comparación con las opciones menos exóticas.
+\newpage
+\subsubsection{Los forros y las fundas}
+Los forros son los materiales que se hacen durante el proceso de la fabricación y se ajustan en el interior del encaje o los que se agregan después para acomodar la extremidad que se contrae. El pelite es probablemente el material utilizado más frecuentemente en forros de “encaje blando”. Es un material de espuma de polietileno de células cerradas disponible en varios durómetros.\\ Este material se puede moldear con calor, lo que significa que se puede calentar y dar forma sobre un molde de yeso. El pelite y otros materiales semejantes tienen la ventaja de que se adaptan fácilmente al agregar material adicional cuando la extremidad residual se contrae. Es también conveniente usar estos materiales si la suspensión de una prótesis por debajo de la rodilla se realiza mediante una cuña supracondilar. En este caso, el forro se confecciona por encima de la prominencia ósea de la rodilla con el fin de suspender la prótesis.\\
+Las fundas se llevan por fuera de la prótesis y se usan para proporcionar suspensión. Algunos de los materiales que se usan para las fundas son: neopreno, silicona, látex y uretano. Las fundas se llevan sobre la prótesis y se extienden por el muslo de una persona amputada por debajo de la rodilla. Si la funda no es porosa, la suspensión se logrará combinando la succión (el aire no puede entrar en el encaje) y la fricción mecánica.
+
+\subsubsection{Acabado cosmético}
+Las prótesis endoesqueléticas suelen estar revestidas de un material de espuma para que tengan la misma forma que la pierna sana. Las fundas de espuma están disponibles en poliuretano y polietileno. Pueden ser muy blandas, para prótesis por encima de la rodilla con funda de una sola pieza, o bastante sólidas, para prótesis por debajo de la rodilla y fundas cosméticas discontinuas por encima de la rodilla. Estos materiales vienen en piezas extra grandes hechas a medida para conseguir una óptima apariencia cosmética.
+El material más tradicional y común para la funda cosmética es la media de nailon. 
+
+\newpage
+\section{Conclusiones}
+Como se puede ver ahora ya sabemos sobre la filología de la mano, como se compone, como se comporta y cuáles son sus inconvenientes. A si también, los diseños de prótesis que las compañías/instituciones fabrican hoy en dia. Sobre los materiales podemos añadir que no esperábamos encontrar muchos, pensábamos que iban a ser unos pocos y algunas aleaciones especiales compatibles con el ser humano. Pero, fue una sorpresa ver que hay de todos los tipos ya sea por su costo o demanda a si como también la disponibilidad en el mercado.
+Para concluir, con el paso de las últimas décadas la investigación para poder regresar a las personas con algún tipo de discapacidad a tener un empleo o a volver sin problemas a hacer lo que normalmente harían como tareas de la casa ha aumentado de manera rapida porque la tecnología a avanzado y con ella la imaginación de las personas para poder crear algún tipo de prótesis y gracias a esto hoy en día tenemos muchos tipos de prótesis como las mencionadas en este documento lo impresionante de estos desarrollos es que cada investigación nos lleva más cerca a poder recrear una mano casi a la perfección.
+\bibliography{bib}
+\bibliographystyle{plainnat}
+\end{document}
