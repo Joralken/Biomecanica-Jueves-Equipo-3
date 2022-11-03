@@ -1,0 +1,119 @@
+\documentclass{article}
+\setlength{\parskip}{5pt} % esp. entre parrafos
+\setlength{\parindent}{0pt} % esp. al inicio de un parrafo
+\usepackage{amsmath} % mates
+\usepackage[sort&compress,numbers]{natbib} % referencias
+\usepackage{url} % que las URLs se vean lindos
+\usepackage[top=25mm,left=20mm,right=20mm,bottom=25mm]{geometry} % margenes
+\usepackage{hyperref} % ligas de URLs
+\usepackage{graphicx} % poner figuras
+\usepackage[spanish]{babel} % otros idiomas
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{subfig}
+%Inicio de Code List
+\usepackage{listings}
+\usepackage{xcolor}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+\lstset{language=Python}
+%Final de Code List
+\author{Equipo 3\\Jorge  Fuentes, Adán  Briones, Arely Cabrera, Reyna  Fernández, Romano Villareal} % author
+\title{Tarea 4\\ Ensayo sobre la biomecánica de la mano} % titulo
+\date{\today}
+\begin{document} % inicia contenido
+\maketitle % cabecera
+\begin{abstract} % resumen
+En esta tarea número 4 veremos sobre la biomecánica de la mano, esto para reforzar conocimientos que estaremos aplicando en nuestro proyecto final de este curso de la materia de biomecánica, esto nos sirve para ganar más conocimiento a profundidad de este tema.
+\end{abstract}
+\tableofcontents
+\newpage
+\section{Introducción}
+En este ensayo estaremos viendo sobre la biomecánica de la mano, aquí estaremos analizando los conceptos planteados de nuestras referencias y así poder terminar de comprender la biomecánica de la mano. ¿Dicho esto porque es importante? Es debido porque la mano siendo un órgano de recepción sensorial indispensable para el conocimiento de los volúmenes y de las distancias, y envía a la corteza cerebral para la interpretación y valoración de las informaciones que recibe, es un órgano que dependiendo la persona y circunstancias, ya sea, por sus actividades, trabajo y accidentes, se puede perder uno de sus componentes como lo es los dedos o la mano misma, es por esto que es importante conocer estas ramas de la biomecánica de la mano que estaremos valorando a continuación para poder entregar un mejor proyecto final.
+\section{Desarrollo}
+\subsection{Ejes de los dedos}
+La mano ayuda a tomar objetos con sutileza y precisión, y gracias a su recepción sensorial brindan conocimiento de los volúmenes y las distancias. Considerando que cada dedo tiene un eje en su centro, las diferentes posiciones de la mano nos indicarán la dirección de los dedos. Por ejemplo cuando está en posición natural, la mano tendrá 3 dedos en paralelo y 3 divergen; al extender la mano, los ejes  convergen en el tubérculo escafoides (mostrando movimiento de aproximación y separación), cuando los dedos están juntos que los ejes están casi paralelos, esto permite realizar ejecuciones con la mano.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=100mm]{Ejes de la mano.png} % archivo
+    \caption{Ejes de los dedos.}
+    \label{grafica}
+\end{figure}
+\subsection{Articulaciones metacarpofalángicas}
+Los dedos presentan articulaciones metacarpofalángicas de tipo condíleo, permitiendo movimientos activos de flexoextensión (palmar y dorsal), abducción y aducción y movimientos pasivos de rotación axial (de hasta 45° en el dedo índice), no poseen movimiento de rotación axial activa\cite{rf1}. Al flexionar es necesaria la laxitud de la cápsula articular y sinovial, junto con los ligamentos laterales, los cuales se tensan al flexionar impidiendo movimientos laterales.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=100mm]{Figura 2.png} % archivo
+    \caption{Articulaciones metacarpofalángicas.}
+    \label{grafica}
+\end{figure}
+\newpage
+\subsection{Acción del extensor común}
+El extensor común de los dedos es extensor de al primera falange y sólo actúa sobre la segunda y tercera, cuandola muñeca ylas articulaciones metacarpofalángicas están en flexión\cite{rf2}.
+\subsection{Acción de los músculos interóseos}
+Los músculos interóseos son flexores de la primera falange y extensores de la segunda y tercera, dependiendo del grado deflexión de las articulaciones metacarpofalángicas y de la tensión del extensor común de los dedos.
+De acuerdo con Bunnel, existe un balance sinérgico entre la acción del extensor común y al de los interóseos sobre al segunda y tercera falanges, de manera que cuando al articulación metacarpofalángicaestá en flexión de 90°, al acción extensora de los interóseos sobrela segunda y tercera falanges es nula y la acción del extensor común es máxima. Pero cuando la articulación metacarpofalángica está en extensión, al acción del extensor común sobre la segunda y tercera falanges es nula.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=100mm]{Figura 4.png} % archivo
+    \caption{Acción de los músculos interóseos y lumbricales.}
+    \label{grafica}
+\end{figure}
+\subsection{Tendón flexor} 
+Con la excepción del pronador redondo, el braquial menor y el braquial anterior, todos los músculos del antebrazo pasan por las articulaciones del carpo y metacarpofalángicas. Los músculos del tendón flexor de los dedos se originan en el húmero supratroclear y discurren en forma volar. El flexor digitorum profundus se inserta en la base de la tercera falange después de perforar el flexor digitorum superficialis, que se divide en dos lóbulos en la articulación metacarpofalángica y se inserta distalmente en el lado de la segunda falange. Parece que el tendón profundo termina en la segunda falange y el tendón superficial termina en la tercera falange, no se requiere cruce de caminos, pero desde un punto de vista biomecánico el ángulo de tracción o abordaje es mayor en la ubicación anatómica. esta disposición si ambos están en contacto con el hueso hasta que se inserte su punta. Esto aumenta la fuerza de flexión en las articulaciones interfalángicas, lo que explica por qué los tendones flexionados son más superficiales que profundos\cite{rf3}. El flexor superficial de los dedos es un flexor de la segunda falange porque se inserta en el lado de la segunda falange, por lo que no afecta a la tercera falange. Solo funciona en el primer campo cuando el segundo ya está completamente curvado. Cuando la primera falange es estirada por los músculos extensores comunes de los dedos, gana fuerza máxima y logra soportar algo más pesado que el peso corporal, tal como lo haría un escalador anclado a una pared con solo los dedos de los pies.\\
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=100mm]{Figura 3.png} % archivo
+    \caption{Tendones de los músculos flexores y extensores de los dedos.}
+    \label{grafica}
+\end{figure}
+El flexor digitorum profundus se inserta en la base de la tercera falange, por lo que solo es responsable de la flexión de la tercera falange, pero en los movimientos normales de la mano, la flexión de la tercera falange hace que la segunda falange se flexione porque ninguna camilla selectiva puede sostenerla. Por lo tanto, la flexión activa de los flexores profundos aislados debe investigarse extendiendo el agarre de la segunda falange. Al extender la primera falange, la fuerza máxima se logra contrayendo los extensores comunes de los dedos.
+\subsection{Acción de los músculos lumbricales}
+Estos pequeños músculos intrínsecos de la mano, desempeñan un papel esencial en los movimientos de flexoextensión de los dedos, ya que al estar situados en un plano más palmar que el ligamento transverso intermetacarpiano, tienen un ángulo de incidencia de 35o con respecto a al primera falange, ol que les permite flexionarla aunque ésta se encuentra en hiperextensión.
+\subsection{Sobre el pulgar}
+La función primordial de la mano es la de la prensión esta se realiza por la facultad que tiene el dedo pulgar de oponerse a los demás dedos a modo de pinza potente, desde el dedo indice hasta el menique con igual intensidad gracias a los movimientos coordinados de los músculos de la eminencia tenar y a la desviación cubital de los dedos en flexión que facilita la dirección de sus ejes hacia el pulpejo del dedo pulgar.\\
+La oposición del pulgar resulta de la coordinación de varios movimientos como son la repulsión y aducción del primer metacarpiano junto con la notación axial del primer metacarpiano y de la primera falange. Gracias a este movimiento de rotación axial, el dedo pulgar partiendo de una posición inicial en extensión máxima, con la palma muy abierta, se coloca en una posición intermedia frente al dedo índice y termina en oposición máxima contactando con el dedo menique. Si observamos el plano de la una comprobaremos que el dedo pulgar ha realizado una rotación de 90 a 120\cite{rf4}.\\
+El dedo pulgar es el más importante de la mano gracias a su movilidad y a su fuerza, pero sobre todo por su capacidad irremplazable de oponerse a cada uno de los demás dedos por igual y a la palma de la mano. Una retracción de la primera comisura que coloque al primer metacarpiano en reposición, incluso conservando la movilidad de las falanges, convierten al dedo pulgar en un dedo corto y particularmente poco eficaz.
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=80mm]{Figura 6.png} % archivo
+    \caption{Movimientos de oposición del pulgar.}
+    \label{grafica}
+\end{figure}
+\subsection{Funciones de la mano} 
+La mano tiene múltiples funciones, siendo la más importante la de tocar que es una función sensitiva y la de prensión que es una función motora. La posición de los elementos móviles de la mano para asistir a los objetos y adaptarse a su forma, tiene una amplia gama de combinaciones por lo tanto, se presentan unos ejemplos de dichas combinaciones:
+\begin{figure}[htp] % figura
+    \centering
+    \includegraphics[width=100mm]{Figura 7.png} % archivo
+    \caption{Modalidades de prensión.}
+    \label{grafica}
+\end{figure}
+\newpage
+\section{Conclusiones}
+Para concluir este ensayo, tenemos ya adquiridos los varios componentes de la mano, sus funciones y las aplicaciones que tienen, por lo tanto, queremos resaltar que es esencial para el normal funcionamiento biomecánico de la mano, la regularización de la fuerza de prension, ya que debe adaptarse al peso del objeto, a su fragilidad, a su superficie y a su forma de utilización. También al final del capítulo 11 al analizar los pesos en kg-fuerza sobre la potencia de flexión digito palmar vemos que el hombre sigue teniendo una ventaja en la cantidad de potencia con una diferencia de 20 kg en comparación con la mujer, cabe aclarar que estos valores pueden variar considerablemente según los individuos, la mano dominante, la edad, etc. Por lo que estos datos a nosotros nos sirven para saber que tan resistente y cuanta fuerza debe ser capaz de resistir nuestra prótesis de dedo indice dependiendo si es para una mano de hombre o de mujer.
+\bibliography{bib}
+\bibliographystyle{plainnat}
+\end{document}
